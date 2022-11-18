@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div id="loading" class="generator"></div>
+<div id="content">
+<form action="greet" method="post">
+    <p>Киньте ссылку на видео</p>
+    <br>
+    <input type="text" name="name_input">
+    <br>
+    <input type="submit" value="Start" id="greet" onclick="loading();" >
+</form>
+</div>
+{% endblock %}

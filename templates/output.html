@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<div id=ll></div>
+<button class="bb">
+    <a href="{{ url_for('static', filename='txt/text.txt') }}" download>Result</a>
+</button>
+
+{% endblock %}

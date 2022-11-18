@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dksondtext</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="{{url_for('static', filename='js/scriptus.js')}}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.min.js')}}"></script>
+</head>
+<body>
+    <img src="https://i0.wp.com/blog.gymglish.com/wp-content/uploads/2021/09/preview-lightbox-slap@3072-e1632835591443.png?fit=500,455&ssl=1">
+    <br>
+    {% block main %}
+    
+    {% endblock %}
+</body>
+</html>

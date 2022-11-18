@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #708090;
+}
+p {
+    color: white;
+    font-family: Shanti;
+    font-size: 1.2em;
+    text-align: center;
+
+}
+img {
+
+    width: 250px;
+    text-align: center;
+}
+input {
+  width: 300px;
+  margin: 20px 20px;
+  height: 50px;
+  border: none;
+  font-family: Shanti;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+input:focus {
+    outline: none;
+    border: solid 5px #00FFCE;
+    text-align: center;
+}
+
+#greet {
+    background-color: #d87093;
+    border:  none;
+    color: white;
+    text-align: center;
+}
+
+#greet:hover {
+    background-color: MediumVioletRed;
+}
+
+
+.bb {
+    width: 300px;
+    height: 50px;
+    border: none;
+    font-family: Shanti;
+    font-size: 1.3em;
+    text-align: center;
+    margin:auto;
+  }
+
+.bb {
+    background-color: PaleVioletRed;
+    border:  none;
+    color: white;
+}
+
+.bb:hover {
+    background-color: MediumVioletRed;
+}
+
+.bb a{
+    text-decoration: none;
+    color: white;
+    font-family: Shanti;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+}
+
+div#loading {
+    width: 250px;
+    height: 250px;
+    display: none;
+    background: url(/static/animations/1490.gif) no-repeat;
+    cursor: wait;
+    text-align: center;
+}
+
+div#ll {
+    width: 200px;
+    height: 200px;
+    background: url(/static/animations/1481.gif) no-repeat;
+    text-align: center;
+}
