@@ -2,10 +2,9 @@
 Youtube -> to txt
 
 
-This project start to transcription youtube video to text. 
-This project is interesting because for desktop-GUI use python web-backend(Flask) + JS + HTML/CSS.
-Project can work like a desktop-app or web-app progra. 
-Codebase start need ffmpeg for your os. 
+This project was created to transcribe YouTube videos into text. Its quite interesting because its built with Flask and FlaskWebGui.Also it can run as local and web servers like desktop application
+
+for correct work need ffmpeg 
 
 Like exemple project was build for windows. 
 https://drive.google.com/file/d/1r-NFvcPTvzShodDyNpy45QOFnnvkschI/view?usp=share_link
